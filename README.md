@@ -1,11 +1,11 @@
-STIGLER
+# STIGLER
 
 This is a program to select food ingrediants while satisfying nutritional
 requirements (RDA - recommended daily allowance) while minimising either cost,
 or minimising weight of ingrediants given cost constraint, or maximising
 diversity of ingredients given constraints on cost and weight of ingrediants.
 
-# History
+## History
 
 The program was inspired by George Stigler, who first solved (manually) in 1939
 the problem of selecting food ingrediants to meet nutritional
@@ -19,7 +19,7 @@ with anual cost $39.69 (using 1939 data). (See wikipedia entry on Stigler's
 diet)
 
 
-# User profile
+## User profile
 
   The program supports creating a user profile. It consists of the following
   files, which must be kept in a profile directory (myprofile is a sample
@@ -35,7 +35,7 @@ diet)
 - wt.csv - here user can set constraints on the weights of individual food
   ingrediants.
 
-# Data directory:
+## Data directory:
 
 - fxn.csv - food ingrediants (rows) vs nutritional composition (columns). The
   file nxf.csv contains the same data with rows and columns interchanged. This
@@ -49,7 +49,7 @@ diet)
   NIH (National Institute of Health) website. You may want to copy one of the
   files in your profile, or ceate rda.csv of your own.
 
-# Usage:
+## Usage:
 
 python3 stigler.py [-h] [-c COST_HI] [-w WEIGHT_HI] [-s SCALE] -p <profile_dir>
 where
@@ -62,7 +62,7 @@ ingrediants
 - SCALE = scaling factor for RDA values, with default 1.0 (for example, you may
 want to plan the diet for a week, in which case use scale 7).
 
-# Warning
+## Warning
 
 The program was created for fun, and I do not recommend you to plan your diet
 using this program, without colsulting your doctor. The author takes no
