@@ -10,7 +10,7 @@ diversity of ingredients given constraints on cost and weight of ingrediants.
 The program was inspired by George Stigler, who first solved (manually) in 1939
 the problem of selecting food ingrediants to meet nutritional
 requirements. Stigler solved the problem (Stigler's 1939 diet) for 5 foods
-(wheat flour, evaporated milk, cabbage, spinach, dried navy beans) of 9
+(wheat flour, evaporated milk, cabbage, spinach, dried navy beans) and 9
 nutrients (calories, protein, calcium, iron, vitamin A, thiamine (vitamin B1),
 riboflavin (vitamin B2), niacin, ascorbic acid (vitamin C)), and obtained anual
 cost of $39.93. Later the problem was formulated and solved by George Dantzig
@@ -47,7 +47,7 @@ diet)
 - rda-vegan.csv, rda-dairy.csv - sample recommended daily allowance for vegan
   and vegetarian (with dairy) diet of adult male. This data is compiled from the
   NIH (National Institute of Health) website. You may want to copy one of the
-  files in your profile, or ceate rda.csv of your own.
+  files to your profile directory, or ceate rda.csv of your own.
 
 ## Usage:
 
@@ -56,8 +56,7 @@ where
 
 - COST_HI = upper limit on the cost
 
-- WEIGHT_HI = upper limit on weight of
-ingrediants
+- WEIGHT_HI = upper limit on weight of ingrediants
 
 - SCALE = scaling factor for RDA values, with default 1.0 (for example, you may
 want to plan the diet for a week, in which case use scale 7).
