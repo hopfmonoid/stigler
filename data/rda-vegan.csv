@@ -1,0 +1,24 @@
+# RDA (vegan) lower bounds for B12 and D are set to 0  
+nutrient,unit,min,max
+energy,kcal,2000,2100
+protein,g,50,70
+total_fat,g,0,70
+sat_fat,g,0,24
+calcium,mg,1000,2500
+iron,mg,8,45
+magnesium,mg,400,1000
+phosphorus,mg,700,4000
+potassium,mg,4700,10000
+sodium,mg,0,2300
+zinc,mg,11,40
+vit_c,mg,90,2000
+thiamin,mg,1.2,10
+riboflavin,mg,1.3,10
+niacin,mg,16,35
+vit_b6,mg,1.7,100
+folate,µg,400,1000
+vit_b12,µg,0.0,10.0
+vit_a,IU,3000,10000
+vit_e,mg,15,1000
+vit_d,µg,0.0,100.0
+vit_k,µg,120,1000
